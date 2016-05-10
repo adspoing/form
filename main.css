@@ -68,4 +68,85 @@ button {
     background-color: #42b983;
     border: 1px solid #fff;
     border-radius: 4px;
+    color:#fff;
+    font-size: 14px;
+    font-family: sans-serif;
 }
+
+
+#prev {
+    float:left;
+    margin-left:300px;
+    margin-top: 20px;
+}
+
+#next {
+    float:right;
+    margin-top:20px;
+    margin-right: 300px;
+}
+#demo{
+    overflow: hidden;
+}
+
+#title
+{
+    background-color:#eee;
+    width:600px;
+    height:50px;
+    box-shadow: 5px 5px 2px #888888;
+    left:50%;
+    position: absolute;
+    margin-top:20px;
+    margin-left:-400px;
+    margin-bottom: 40px;
+    line-height:30px;
+}
+#time
+{
+    background-color:#eee;
+    width:600px;
+    height:50px;
+    box-shadow: 5px 5px 2px #888888;
+    left:50%;
+    position: absolute;
+    margin-top:80px;
+    margin-left:-400px;
+    margin-bottom: 40px;
+}
+
+#content
+{
+    background-color:#eee;
+    width:600px;
+    height:600px;
+    box-shadow: 5px 5px 2px #888888;
+    left:50%;
+    position: absolute;
+    margin-top:140px;
+    margin-left:-400px;
+    margin-bottom: 40px;
+}
+
+#modify a
+{
+    background-color: #eee;
+    border-radius: 2px;
+    border:2px solid #888;
+}
+#modify .row{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+#modify button{
+    margin-top: 30px;
+    margin-right: 30px;
+    /*width:40px;*/
+    /*height:20px;*/
+}
+
+#modify .btn{
+    width:60px;
+    height:20px;
+}
+
